@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> my webpage </title>
+    <meta charset="utf-8">
+    <meta name="descirption" content="webpage, with buttons ">
+    <meta name="keywords" content="Mths,website">
+    <meta name="author" content="Ahmad-El-khawaldeh">
+    <meta name="viewport" content="width=device-width,intial-scale1.0">
+   </head>
+   
+        <body> 
+       
+        please pick a number:  <input type="text" id="num" />
+       <input type= "button" value= "check" onclick="checkNum()"/>
+        </body>
+        
+         
+       <script language= "javascript">
+       
+         function checkNum() {
+          var num = parseInt(document.getElementById("num").value);
+         if (num==0)
+          window.alert (" 0 ")
+          
+        if (num >= 0 )   
+        window.alert(" the  number is possitive ") ;
+         else 
+          window.alert(" this  number is  negtive !!");
+        
+         
+        }
+     
+     
+       </script>
